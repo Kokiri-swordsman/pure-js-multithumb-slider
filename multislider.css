@@ -1,0 +1,75 @@
+.sliderHorizontalTrack {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+	background-color: #272727;
+}
+
+.sliderHorizontalThumb {
+	position: absolute;
+	--thumbHHeight: 20px;
+	top: calc((100% - var(--thumbHHeight)) / 2);
+	width: 10px;
+	height: var(--thumbHHeight);
+	display: inline-block;
+
+	background-image: url("multisliderH_thumb.png");
+	background-repeat: no-repeat;
+}
+
+.sliderHorizontalThumbL {
+	background-image: url("multisliderH_thumb_l.png");
+}
+
+.sliderHorizontalThumbR {
+	background-image: url("multisliderH_thumb_r.png");
+}
+
+.sliderHorizontalRange {
+	position: absolute;
+	height: 100%;
+	display: inline-block;
+
+	background-color: #4f4f4f;
+}
+
+
+
+.sliderVerticalTrack {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+	background-color: #272727;
+}
+
+.sliderVerticalThumb {
+	position: absolute;
+	--thumbVWidth: 20px;
+	left: calc((100% - var(--thumbVWidth)) / 2);
+	height: 10px;
+	width: var(--thumbVWidth);
+	display: inline-block;
+	
+	background-image: url("multisliderV_thumb.png");
+	background-repeat: no-repeat;
+}
+
+.sliderVerticalThumbT {
+	background-image: url("multisliderV_thumb_t.png");
+}
+
+.sliderVerticalThumbB {
+	background-image: url("multisliderV_thumb_b.png");
+}
+
+.sliderVerticalRange {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+
+	background-color: #4f4f4f;
+}
